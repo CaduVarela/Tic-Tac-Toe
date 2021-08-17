@@ -1,4 +1,4 @@
-package jogovelha;
+package JogoVelha;
 
 import java.awt.*;
 import javax.swing.*;
@@ -12,8 +12,8 @@ public class MenuPrincipal extends JFrame implements ActionListener {
     JPanel menu01 = new JPanel(null);
     JPanel menu02 = new JPanel(null);
 
-    Font fonteTexto = new Font("Comic sans", Font.BOLD, 50);
-    Font fonteButton = new Font("Comic sans", Font.BOLD, 24);
+    Font fonteTexto = new Font("SansSerif", Font.BOLD, 50);
+    Font fonteButton = new Font("SansSerif", Font.BOLD, 24);
 
     JLabel title = new JLabel("Jogo da Velha", JLabel.CENTER);
 
@@ -111,10 +111,10 @@ public class MenuPrincipal extends JFrame implements ActionListener {
 
         if (evt.getSource() == JxJ) {
             dispose();
-            new jogovelha.JxJ().play(getLocation());
+            new JogoVelha.JxJ().play(getLocation());
         } else if (evt.getSource() == JxC) {
             dispose();
-            new jogovelha.JxC().play(getLocation());
+            new JogoVelha.JxC().play(getLocation());
         }
     }
 

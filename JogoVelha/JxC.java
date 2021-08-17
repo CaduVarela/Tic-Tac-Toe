@@ -1,4 +1,4 @@
-package jogovelha;
+package JogoVelha;
 
 import java.awt.*;
 import javax.swing.*;
@@ -14,9 +14,9 @@ public class JxC extends JFrame implements ActionListener {
 
     private int x, y, i, j;
 
-    private final Font fonte = new Font("Comic Sans", Font.BOLD, 50);
-    private final Font fonteVelha = new Font("Comic Sans", Font.BOLD, 45);
-    private final Font fonteMenor = new Font("Comic Sans", Font.PLAIN, 30);
+    private final Font fonte = new Font("SansSerif", Font.BOLD, 50);
+    private final Font fonteVelha = new Font("SansSerif", Font.BOLD, 45);
+    private final Font fonteMenor = new Font("SansSerif", Font.PLAIN, 30);
     private final JLabel textVelha = new JLabel("Velha", JLabel.CENTER);
     private final JLabel marcaRodada = new JLabel("", JLabel.CENTER);
 
